@@ -1,0 +1,36 @@
+signup:
+  signup_button:  class:login
+  create_account_email: id:email_create
+  create_account_button:  id:SubmitCreate
+  create_account_div: xpath://*[@id='noSlide']/h1
+  create_account_gender_mr:  id:id_gender1
+  create_account_gender_mrs:  id:id_gender2
+  create_account_firstname: id:customer_firstname
+  create_account_lastname:  id:customer_lastname
+  create_account_password:  id:passwd
+  create_account_dob_date:  id:days
+  create_account_dob_month: id:months
+  create_account_dob_year:  id:years
+  create_account_signup_newsletter: id:newsletter
+  create_account_special_offers:  id:optin
+  create_account_address_firstname: id:firstname
+  create_account_address_lastname:  id:lastname
+  create_account_address_company:  id:company
+  create_account_address_address: id:address1
+  create_account_address_address_line2: id:address2
+  create_account_address_city:  id:city
+  create_account_address_state: id:id_state
+  create_account_address_zip: id:postcode
+  create_account_address_country: id:id_country
+  create_account_address_additional_information:  id:other
+  create_account_address_homephone: id:phone
+  create_account_address_mobilephone: id:phone_mobile
+  create_account_address_assign_future_ref: id:alias
+  create_account_register_button: id:submitAccount
+  create_account_myaccount_div: xpath://*[@id='center_column']/h1
+
+mainpage:
+  signout_button:   class:logout
+
+
+

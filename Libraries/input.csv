@@ -1,0 +1,29 @@
+base_url,http://automationpractice.com/index.php
+browser,Chrome
+page_title,My Store
+username,test_hello
+password,123
+create_account_mail,test1s9@gmail.com
+create_account_title,Mr
+create_account_firstname,Taylor
+create_account_lastname,Dani
+create_account_password,Test@123
+create_account_date,25
+create_account_month,7
+create_account_year,1972
+create_account_address_firstname,Taylor
+create_account_address_lastname,Daniel
+create_account_company,BMW
+create_account_address1,203 st.george street
+create_account_address2,Hilton
+create_account_city,New Jersey
+create_account_state,New Jersey
+create_account_postalcode,07096
+create_account_country,United States
+create_account_additional_info,
+create_account_homephone,+1 92014568
+create_account_mobilephone,5478963210
+create_account_assignalias,My Address
+get_api_url,https://jsonplaceholder.typicode.com/posts
+post_api_url,https://jsonplaceholder.typicode.com/posts
+session,test_session
