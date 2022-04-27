@@ -25,10 +25,10 @@ steps:
   displayName: 'Install dependencies'
 
 - script: |
-    pip install robotframework robotframework-seleniumlibrary && npm install chromedriver
+    pip install robotframework robotframework-seleniumlibrary && webdrivermanager
 
   displayName: 'Install dependencies'
 
-- powershell: robot --pythonpath Tests/Sources/login.robot
+- powershell: robot -v browserName:chrome --pythonpath Tests/Sources/login.robot
   displayName: 'Run robot scripts'
 
